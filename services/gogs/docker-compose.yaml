@@ -16,7 +16,7 @@ services:
       - gogs_data:/data
     ports:
       - "3000:3000"
-      - "22:22"
+      - "2222:22"  # Ändere den SSH-Port auf 2222
     depends_on:
       - db
 
