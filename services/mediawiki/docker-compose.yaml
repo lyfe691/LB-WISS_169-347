@@ -13,7 +13,8 @@ services:
       - MEDIAWIKI_DB_USER=mediawiki
       - MEDIAWIKI_DB_PASSWORD=secret
     volumes:
-      - mediawiki_data:/var/www/html
+    - mediawiki
+    - deleted_files:/var/www/html/deleted_files
     ports:
       - "8085:80"
     depends_on:
