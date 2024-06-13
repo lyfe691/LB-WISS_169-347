@@ -1,5 +1,4 @@
 # Projekt-Dokumentation
-
 ## Projektübersicht
 
 Dieses Projekt umfasst die Einrichtung und Konfiguration der folgenden Dienste für ein KMU:
@@ -13,7 +12,7 @@ Alle Dienste wurden mit Docker-Compose konfiguriert und laufen in Docker-Contain
 
 ### Projektstruktur
 
-Die Projektstruktur wurde wie folgt organisiert:
+Wir haben die Projektstruktur wie folgt organisiert:
 
 ```plaintext
 LB/
@@ -205,7 +204,7 @@ volumes:
 
 ### Dienste starten
 
-Um die Dienste zu starten, navigiere in die entsprechenden Verzeichnisse und führe ```docker-compose up -d``` aus:
+Um die Dienste zu starten navigierten wir in die entsprechenden Verzechinisse führten ```docker-compose up -d``` aus:
 
 ```bash
 cd ~/LB/services/mediawiki
@@ -230,6 +229,7 @@ docker-compose up -d
 
 Alle Konfigurationsdateien wurden im GitLab-Repository versioniert. Der Fortschritt wurde durch regelmäßige Commits dokumentiert.
 <hr>
+
 #### Repository einrichten und Änderungen pushen
 
 1. Remote-Repository hinzufügen:
@@ -244,3 +244,4 @@ git add -A
 git commit --amend -m "beispiel für doku"
 git push origin master --force
 ```
+<hr>
