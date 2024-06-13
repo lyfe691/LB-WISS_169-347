@@ -1,5 +1,5 @@
 # Projekt-Dokumentation
-<hr>
+
 ## Projektübersicht
 
 Dieses Projekt umfasst die Einrichtung und Konfiguration der folgenden Dienste für ein KMU:
