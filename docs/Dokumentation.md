@@ -272,6 +272,7 @@ docker cp /home/lyfe/LocalSettings.php mediawiki:/var/www/html/LocalSettings.php
 scp:
 
 - ![showcase_scp](images/showcase_scp.png)
+
 docker cp:
 
 - ![showcase_docker-cp](images/Beispiel_docker_cp.png)
