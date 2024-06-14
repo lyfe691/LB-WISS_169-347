@@ -227,7 +227,7 @@ docker-compose up -d
 ```
 ### Versionsverwaltung
 
-Alle Konfigurationsdateien wurden im GitLab-Repository versioniert. Der Fortschritt wurde durch regelmäßige Commits dokumentiert.
+Alle Konfigurationsdateien wurden im GitLab-Repository versioniert. Der Fortschritt wurde durch regelmässige Commits dokumentiert.
 <hr>
 
 #### Repository einrichten und Änderungen pushen
@@ -247,6 +247,27 @@ git push origin master --force
 <hr>
 
 ### Einrichten von MediaWiki
+Jetzt haben wir angefangen das MediaWiki einzurichten, es sah so aus am anfang:
+![MediaWiki-start](images/start_mediawiki.png)
+Installation:
+![Mediawiki-installation](images/mediawiki_installation.png)
+LocalSettings.php:
+![LocalSettigns.php](images/LocalSettingsphp.png)
+Nachdem wir mit der Konfiguration fertig waren mussten wir LocalSettings.php ins ```mediawiki:/var/www/html/``` Verzechnis kopieren und das machten wir mit dem command ```scp``` auf dem main OS:
+```bash
+scp "C:\Users\sebiz\Downloads\LocalSettings.php" lyfe@192.168.1.32:/home/lyfe
+```
+Als nächstes mussten wir das LocalSettings.php ins docker environement verschieben:
+```bash
+docker cp /home/lyfe/LocalSettings.php mediawiki:/var/www/html/LocalSettings.php
+```
+Small Showcase:
+scp:
+![showcase_scp](images/showcase_scp.png)
+docker cp:
+![showcase_docker-cp](images/Beispiel_docker_cp.png)
+<hr>
+
 ### Einrichten von NextCloud
 ### Einrichten von Gogs
 ### Einrichten von Portainer
