@@ -250,14 +250,15 @@ git push origin master --force
 
 ##### Jetzt haben wir angefangen das MediaWiki einzurichten, es sah so aus am anfang:
 
-- ![MediaWiki-start](images/start_mediawiki.png)
+ ![MediaWiki-start](images/mediawiki/start_mediawiki.png)
 
 ##### Installation:
 
-- ![Mediawiki-installation](images/mediawiki_installation.png)
+ ![Mediawiki-installation](images/mediawiki/mediawiki_installation.png)
 
 ##### LocalSettings.php:
-- ![LocalSettigns.php](images/LocalSettingsphp.png)
+
+ ![LocalSettigns.php](images/mediawiki/LocalSettingsphp.png)
 
 Nachdem wir mit der Konfiguration fertig waren mussten wir LocalSettings.php ins ```mediawiki:/var/www/html/``` Verzechnis kopieren und das machten wir mit dem command ```scp``` auf dem main OS:
 ```bash
@@ -271,14 +272,32 @@ docker cp /home/lyfe/LocalSettings.php mediawiki:/var/www/html/LocalSettings.php
 
 scp:
 
-- ![showcase_scp](images/showcase_scp.png)
+- ![showcase_scp](images/mediawiki/showcase_scp.png)
 
 docker cp:
 
-- ![showcase_docker-cp](images/Beispiel_docker_cp.png)
+- ![showcase_docker-cp](images/mediawiki/Beispiel_docker_cp.png)
+
+##### So sah das ganze nach dem setup aus:
+![mediawiki installation fertig](images/mediawiki/fertig_setup_mediawiki.png)
+
+Beim einrichten haben wir auch noch bemerkt das wir keine admistratoren rechte haben, deswegen haben wir das LocalSettings.php umgeändert:
+
+```bash
+$wgGroupPermissions['*']['createaccount'] = true;
+$wgGroupPermissions['sysop']['createaccount'] = true;
+```
+```bash
+$wgGroupPermissions['*']['read'] = true;
+$wgGroupPermissions['user']['edit'] = true;
+$wgGroupPermissions['sysop']['delete'] = true;
+$wgGroupPermissions['bureaucrat']['userrights'] = true;
+```
 <hr>
 
 ### Einrichten von NextCloud
+
+
 ### Einrichten von Gogs
 ### Einrichten von Portainer
 
