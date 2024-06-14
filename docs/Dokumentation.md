@@ -245,3 +245,9 @@ git commit --amend -m "beispiel für doku"
 git push origin master --force
 ```
 <hr>
+
+### Einrichten von MediaWiki
+### Einrichten von NextCloud
+### Einrichten von Gogs
+### Einrichten von Portainer
+
