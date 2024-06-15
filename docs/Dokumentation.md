@@ -309,11 +309,14 @@ cat config.php
 <hr>
 
 ### Einrichten von Gogs
-##### Am anfang der Einrichtun sah es so aus:
+##### Am anfang der Einrichtung sah es so aus:
 ![anfang gogs](images/gogs/gogs_anfang.png)
-##### Während der installation
+##### Während der installation:
 ![während installaiton](images/gogs/gogs_installatuion.png)
-##### Nach der installation
+##### Nach der installation:
 ![nach installation](images/gogs/gogs_after_installation.png)
+<hr>
+
 ### Einrichten von Portainer
+
 
