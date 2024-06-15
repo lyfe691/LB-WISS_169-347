@@ -318,5 +318,8 @@ cat config.php
 <hr>
 
 ### Einrichten von Portainer
-
-
+##### Am anfang sah es so aus:
+![Login Portainer](images/portainer/vor%20installation_login.png)
+##### Nach login:
+![Nach installation](images/portainer/nach%20installation.png)
+<hr>
