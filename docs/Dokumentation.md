@@ -296,8 +296,19 @@ $wgGroupPermissions['bureaucrat']['userrights'] = true;
 <hr>
 
 ### Einrichten von NextCloud
-
+Bei NextCloud mussten wir einfach die details des docker-compose.yaml eingeben.
+##### Wie es aussieht:
+![NextCloud after setup](images/nextcloud/nextcloud_aftersetup.png)
+##### Bestätingung des contents:
+```bash
+docker exec -it nextcloud /bin/bash
+cd /var/www/html/config
+cat config.php
+```
+![Confirmation config](images/nextcloud/confirmation_nextcloud.png)
+<hr>
 
 ### Einrichten von Gogs
+
 ### Einrichten von Portainer
 
