@@ -281,7 +281,7 @@ docker cp:
 ##### So sah das ganze nach dem setup aus:
 ![mediawiki installation fertig](images/mediawiki/fertig_setup_mediawiki.png)
 
-Beim einrichten haben wir auch noch bemerkt das wir keine admistratoren rechte haben, deswegen haben wir das LocalSettings.php umgeändert:
+Beim einrichten haben wir auch noch bemerkt das wir keine admistratoren rechte hatten, deswegen haben wir das LocalSettings.php umgeändert:
 
 ```bash
 $wgGroupPermissions['*']['createaccount'] = true;
@@ -309,6 +309,11 @@ cat config.php
 <hr>
 
 ### Einrichten von Gogs
-
+##### Am anfang der Einrichtun sah es so aus:
+![anfang gogs](images/gogs/gogs_anfang.png)
+##### Während der installation
+![während installaiton](images/gogs/gogs_installatuion.png)
+##### Nach der installation
+![nach installation](images/gogs/gogs_after_installation.png)
 ### Einrichten von Portainer
 
