@@ -287,12 +287,6 @@ Beim einrichten haben wir auch noch bemerkt das wir keine admistratoren rechte h
 $wgGroupPermissions['*']['createaccount'] = true;
 $wgGroupPermissions['sysop']['createaccount'] = true;
 ```
-```bash
-$wgGroupPermissions['*']['read'] = true;
-$wgGroupPermissions['user']['edit'] = true;
-$wgGroupPermissions['sysop']['delete'] = true;
-$wgGroupPermissions['bureaucrat']['userrights'] = true;
-```
 <hr>
 
 ### Einrichten von NextCloud
@@ -323,3 +317,9 @@ cat config.php
 ##### Nach login:
 ![Nach installation](images/portainer/nach%20installation.png)
 <hr>
+
+
+
+## Passwörter vertsecken
+Da die Passwörter zurzeit in dem yaml file zu sehen sind sollte man sie aus Sicherheitsgründen in externe dateien tun.
+
