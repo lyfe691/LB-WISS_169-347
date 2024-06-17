@@ -320,6 +320,6 @@ cat config.php
 
 
 
-## Passwörter vertsecken
+## Passwörter verstecken
 Da die Passwörter zurzeit in dem yaml file zu sehen sind sollte man sie aus Sicherheitsgründen in externe dateien tun.
 
