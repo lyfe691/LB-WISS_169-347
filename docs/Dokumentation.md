@@ -204,7 +204,7 @@ volumes:
 
 ### Dienste starten
 
-Um die Dienste zu starten navigierten wir in die entsprechenden Verzechinisse führten ```docker-compose up -d``` aus:
+Um die Dienste zu starten navigierten wir in die entsprechenden Verzechinisse und führten ```docker-compose up -d``` aus:
 
 ```bash
 cd ~/LB/services/mediawiki
