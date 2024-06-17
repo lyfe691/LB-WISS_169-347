@@ -284,8 +284,8 @@ docker cp:
 Beim einrichten haben wir auch noch bemerkt das wir keine admistratoren rechte hatten, deswegen haben wir das LocalSettings.php umgeändert:
 
 ```bash
-$wgGroupPermissions['*']['createaccount'] = true;
-$wgGroupPermissions['sysop']['createaccount'] = true;
+$wgGroupPermissions['*']['createaccount'] = true; # Es war false
+$wgGroupPermissions['sysop']['createaccount'] = true; # Es war false
 ```
 <hr>
 
