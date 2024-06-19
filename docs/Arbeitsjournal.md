@@ -127,8 +127,8 @@ Das Projekt hat gezeigt, dass es möglich ist, komplexe IT-Dienstleistungen effi
 Insgesamt war das Projekt ein Erfolg, und die erlernten Fähigkeiten und Erfahrungen werden in zukünftigen Projekten von grossem Nutzen sein. Die Herausforderungen, denen ich begegnet bin, haben mein Verständnis für containerisierte Anwendungen und deren Verwaltung erheblich vertieft. Dieses Projekt hat gezeigt, dass moderne Technologien wie Docker und Portainer wesentliche Werkzeuge für die Bereitstellung und Verwaltung von IT-Diensten sind.
 
 ### Was haben wir zu sagen?
- #### Yanis:
-##### Systeminstallation und -konfiguration
+ ### Yanis:
+#### Systeminstallation und -konfiguration
 Während des Projekts habe ich die Installation und Konfiguration aller benötigten Systeme übernommen. Dazu gehörten die Einrichtung von MediaWiki, Nextcloud und Gogs, sowie die Konfiguration von Portainer zur Überwachung der Container. Diese Aufgaben haben mir geholfen, meine praktischen Fähigkeiten im Umgang mit Docker und verschiedenen Webanwendungen zu vertiefen.
 
 #### Problemlösung und Debugging
@@ -144,14 +144,14 @@ Ein Problem das ich noch anprechen möchte war beim configurieren des config.php
 ```
 Mit hilfe dieser Konfigurationen konnte Benicio auf meine Lokalen Instanzen zugreifen.
 
-##### Sicherheitsaspekte
+#### Sicherheitsaspekte
 Ein wesentlicher Teil meiner Arbeit bestand darin, die Sicherheit der Systeme zu gewährleisten. Dazu habe ich sensible Daten aus den Docker-Compose-Dateien entfernt und in .env-Dateien ausgelagert. Ausserdem habe ich die Konfigurationen angepasst, um unbefugten Zugriff zu verhindern. Diese Massnahmen waren entscheidend, um die Integrität und Sicherheit der installierten Systeme zu gewährleisten.
 
-##### Reflexion
+#### Reflexion
 Ich bin stolz auf meine Leistung bei der technischen Umsetzung des Projekts. Die Arbeit hat meine Fähigkeiten im Bereich der Systemadministration und -sicherheit gestärkt. Ich habe gelernt, wie wichtig eine gründliche Planung und Dokumentation ist, um komplexe Projekte erfolgreich durchzuführen.
 Alles in allem hat das Projekt spass gemacht und ich habe sehr viel gelernt.
 
 
- #### Benicio:
+ ### Benicio:
 Während des Projekts erstellte ich umfassende Dokumentation, Skizzen und ein Gantt-Diagramm. Diese Dokumente hielten alle Projektschritte fest und informierten uns über den aktuellen Stand. Die Skizzen visualisierten die Systeminteraktionen und halfen, Probleme frühzeitig zu erkennen. Obwohl ich anfänglich Schwierigkeiten mit dem Gantt-Diagramm hatte, konnte ich durch wiederholte Anpassungen und Rücksprache die zeitliche Planung letztendlich erfolgreich strukturieren und den Fortschritt überwachen.
  
