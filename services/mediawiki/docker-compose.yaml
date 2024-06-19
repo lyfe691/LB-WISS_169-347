@@ -6,29 +6,22 @@ services:
     container_name: mediawiki
     networks:
       - internal_net
-    environment:
-      - MEDIAWIKI_DB_TYPE=mysql
-      - MEDIAWIKI_DB_HOST=db
-      - MEDIAWIKI_DB_NAME=mediawiki
-      - MEDIAWIKI_DB_USER=mediawiki
-      - MEDIAWIKI_DB_PASSWORD=secret
+    env_file:
+      - ./mediawiki.env
     volumes:
       - mediawiki_data:/var/www/html
     ports:
       - "8085:80"
     depends_on:
-      - db
+      - mediawiki_db
 
-  db:
+  mediawiki_db:
     image: mysql:5.7
     container_name: mediawiki_db
     networks:
       - internal_net
-    environment:
-      - MYSQL_ROOT_PASSWORD=root_password
-      - MYSQL_DATABASE=mediawiki
-      - MYSQL_USER=mediawiki
-      - MYSQL_PASSWORD=secret
+    env_file:
+      - ./mediawiki_db.env
     volumes:
       - db_data:/var/lib/mysql
 
