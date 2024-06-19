@@ -38,7 +38,7 @@ LB/
 
 ### Einrichtung der Dienste
 
-#### MediaWiki
+#### MediaWiki (Vor Sicherheitsmassnahme)
 
 ```yaml
 version: '3.8'
@@ -85,7 +85,7 @@ volumes:
 ```
 <hr>
 
-#### Nextcloud
+#### Nextcloud (Vor Sicherheitsmassnahme)
 ```yaml
 version: '3.8'
 
@@ -130,7 +130,7 @@ volumes:
 ```
 <hr>
 
-#### Gogs
+#### Gogs (Vor Sicherheitsmassnahme)
 ```yaml
 version: '3.8'
 
@@ -177,7 +177,7 @@ volumes:
 ```
 <hr> 
 
-#### Portainer
+#### Portainer (Vor Sicherheitsmassnahme)
 ```yaml
 version: '3.8'
 
@@ -281,7 +281,7 @@ docker cp:
 ##### So sah das ganze nach dem setup aus:
 ![mediawiki installation fertig](images/mediawiki/fertig_setup_mediawiki.png)
 
-Beim einrichten haben wir auch noch bemerkt das wir keine admistratoren rechte hatten, deswegen haben wir das LocalSettings.php umgeändert:
+Beim einrichten haben wir auch noch bemerkt das wir keine Admistratoren rechte hatten, deswegen haben wir das LocalSettings.php umgeändert:
 
 ```bash
 $wgGroupPermissions['*']['createaccount'] = true; # Es war false
@@ -310,7 +310,7 @@ Damit ich und Benicio zusammenarbieten konnten mussten wir im docker environemen
     2 => '172.28.1.2', # meine ip
   ),
 ```
-Dazu musste ich noch die Ports Weiterleiten:
+Dazu musste ich noch die Ports Weiterleiten, das hat :
 
 ![Port Weiterleitung Nextcloud](images/nextcloud/nextcloud_port.png)
 
