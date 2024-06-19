@@ -149,10 +149,10 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
  - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzer verwaltung ist erreichbar und änderbar dazu ist auch noch die Volle sicherheit gewährleistet vorallem weil das passwort nicht öffentlich sichtbar ist.
 
 ##### 5.3 Gogs
- - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzer verwaltung ist erreichbar und änderbar dazu ist auch noch die Volle sicherheit gewährleistet vorallem weil das passwort nicht öffentlich sichtbar ist.
+ - Installation ist verfügbar und Repositorys sind verfügbar und funktionieren dazu kann man neue einfach erstellen. Die Seite ist auch erreichbar sowie die Benutzer verwaltung ist verfügbar und funktionsfähig auch die Sicherheit ist vollkommen gewährleistet in dem das Passwort nicht öffentlich ist.
 
 ##### 5.4 Portainer
- - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzer verwaltung ist erreichbar und änderbar.
+ - Portainer ist erreichbar und die verwaltung der Container und der Images ist vollkommen funktionsfähig dabei sind die Benutzer auch richtig konfiguiert und sichergestellt das die Passwörter nicht öffentlich sind.
    
 #### 6. Testabschluss
 
