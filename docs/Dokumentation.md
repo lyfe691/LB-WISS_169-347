@@ -300,6 +300,20 @@ cd /var/www/html/config
 cat config.php
 ```
 ![Confirmation config](images/nextcloud/confirmation_nextcloud.png)
+#### Zusammenarbeit
+Damit ich und Benicio zusammenarbieten konnten mussten wir im docker environement ``root@6e52e35328f6:/var/www/html/config/config.php`` so ändern das er such zugriff hat auf meine Lokale Instanz, das machte ich so:
+```bash
+# Man musste meine lokale IP und seine Lokale IP importieren.
+  array (
+    0 => 'localhost:8080', 
+    1 => '172.28.1.15', # seine ip
+    2 => '172.28.1.2', # meine ip
+  ),
+```
+Dazu musste ich noch die Ports Weiterleiten
+![Port Weiterleitung Nextcloud](images/nextcloud)
+
+
 <hr>
 
 ### Einrichten von Gogs
