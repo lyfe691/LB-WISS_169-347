@@ -1,4 +1,6 @@
-# Skizze, wird später noch verbessert
+# Skizze
+![169Skizze drawio](https://github.com/lyfe691/LB-WISS_169-347/assets/111024477/9afc5e0c-469f-4d20-a6de-f652af23306f)
+
 # Testkonzept für das LB-Projekt
 
 #### 1. Einleitung
@@ -40,14 +42,27 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Testen der Installation und Grundkonfiguration von MediaWiki.
   - Überprüfen, ob die Startseite erreichbar ist.
   - Erstellen eines neuen Wikis und Hinzufügen von Seiten.
+ 
+  -- **Erwartete Resultate**
+    - Installation vorhanden, Konfiguration ist abgespeichert
+    - Startseite Erreichbar
+    - Neues Wiki funktioniert und beeinhaltet alle Seite
 
 - **Benutzerverwaltung**
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
 
+  -- **Erwartete Resultate**
+    - Benutzer werden erfolgreich erstellt und sind verfügbar
+    - Benutzer Berechtigungen funktionieren
+
 - **Datenintegrität und -sicherheit**
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
+ 
+  -- **Erwartete Resultate**
+    - Backups werden richtig gespeichert und auch Wiederhergestellt
+    - Datenbank ist erreichbar mit allen Daten
 
 ##### 4.2 Nextcloud
 
@@ -55,14 +70,27 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Testen der Installation und Grundkonfiguration von Nextcloud.
   - Überprüfen, ob die Weboberfläche zugänglich ist.
   - Hochladen und Teilen von Dateien.
+ 
+  -- **Erwartete Resultate**
+    - Installation vorhanden
+    - Web-Overlay ist erreichbar
+    - Daten werden erfolgreich hochgeladen und gespeichert
 
 - **Benutzerverwaltung**
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte und Freigabeeinstellungen.
+ 
+  -- **Erwartete Resultate**
+    - Benutzer werden richtig erstellt und gespeichert
+    - Benutzer Rechte funktionieren
 
 - **Datenintegrität und -sicherheit**
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
+ 
+  -- **Erwartete Resultate**
+    - Backup ist erfolgreich gespeichert und auch wiederhergestellt
+    - Datenbank ist funktional und konsistent
 
 ##### 4.3 Gogs
 
@@ -70,14 +98,27 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Testen der Installation und Grundkonfiguration von Gogs.
   - Überprüfen, ob die Weboberfläche zugänglich ist.
   - Erstellen eines neuen Repositorys.
+ 
+  -- **Erwartete Resultate**
+    - Gogs existiert und richtig konfiguiert
+    - Gogs ist erreichbar per Browser
+    - Repositorys werden gespeichert und richtig erstellt
 
 - **Benutzerverwaltung**
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
+ 
+  -- **Erwartete Resultate**
+    - Benutzer können richtig verwaltet und erstellt werden
+    - Benutzer haben gewisse berechtigungen die auch funktional sind
 
 - **Datenintegrität und -sicherheit**
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
+ 
+  -- **Erwartete Resultate**
+    - Backups funktionieren und werden auch wiederherrgestellt
+    - Datenbank verbindent richtig und besteht aus allen daten
 
 ##### 4.4 Portainer
 
@@ -85,10 +126,19 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Testen der Installation und Grundkonfiguration von Portainer.
   - Überprüfen, ob die Weboberfläche zugänglich ist.
   - Verwalten von Containern und Images.
+ 
+  -- **Erwartete Resultate**
+    - Portrainer ist erfolgreich installiert und die Konfigurationen sind bestehend
+    - Weboberfläche von Portrainer ist erreichbar
+    - Portrainer steuert und verwaltet jegliche Docker erfolgreich
 
 - **Benutzerverwaltung**
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
+ 
+  -- **Erwartete Resultate**
+    - Benutzerkonten sind richtig erreichbar und funktional
+    - Benutzer können auf Portrainer zugreifen und sich anmelden
 
 #### 5. Testdurchführung
 
