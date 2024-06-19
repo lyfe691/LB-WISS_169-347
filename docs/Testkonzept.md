@@ -60,7 +60,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
  
-  - **Erwartete Resultate**
+  . **Erwartete Resultate**
     - Backups werden richtig gespeichert und auch Wiederhergestellt
     - Datenbank ist erreichbar mit allen Daten
 
