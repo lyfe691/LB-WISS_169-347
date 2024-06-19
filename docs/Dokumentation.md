@@ -322,4 +322,62 @@ cat config.php
 
 ## Passwörter verstecken
 Da die Passwörter zurzeit in dem yaml file zu sehen sind sollte man sie aus Sicherheitsgründen in externe dateien tun.
+Das erte was man machen soll ist ``.env`` dateien erstellen um die passwörter zu storen.
+Die ``.env`` dateien soll man dann im .gitignore listen damit sie nicht gepusht werden also sozusagen ausgeschlossen werden.
 
+1. Navigierten wir in die ordner wo die docker-compose dateien gelistet sind und erstellten ``.env`` dateien
+   Beispiel:
+```bash
+  MEDIAWIKI_DB_TYPE=beispiel
+  MEDIAWIKI_DB_HOST=beispiel
+  MEDIAWIKI_DB_NAME=beispiel
+  MEDIAWIKI_DB_USER=beispiel
+  MEDIAWIKI_DB_PASSWORD=beispiel
+  MYSQL_ROOT_PASSWORD=beispiel
+  MYSQL_DATABASE=beispiel
+  MYSQL_USER=beispiel
+  MYSQL_PASSWORD=beispiel
+ ```
+2. Als nächstes mussten wir die ``docker-compose.yaml`` dateien updaten und die Passwörter entfernen und mit dem pfad der ``.env`` datei ersetzen.
+  Beispiel für MediaWiki:
+```yaml
+version: '3.8'
+
+services:
+  mediawiki:
+    image: mediawiki:latest
+    container_name: mediawiki
+    networks:
+      - internal_net
+    env_file:
+      - ./mediawiki.env
+    volumes:
+      - mediawiki_data:/var/www/html
+    ports:
+      - "8085:80"
+    depends_on:
+      - mediawiki_db
+
+  mediawiki_db:
+    image: mysql:5.7
+    container_name: mediawiki_db
+    networks:
+      - internal_net
+    env_file:
+      - ./mediawiki_db.env
+    volumes:
+      - db_data:/var/lib/mysql
+
+networks:
+  internal_net:
+    driver: bridge
+
+volumes:
+  mediawiki_data:
+  db_data:
+```
+3. Als nächstes haben wir die ``.env`` dateien im ``.gitignore`` eingeführt.
+   Das funktioniert so:
+ ```bash
+  *.env
+ ````
