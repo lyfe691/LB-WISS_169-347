@@ -7,21 +7,21 @@ services:
     networks:
       - internal_net
     env_file:
-      - ./mediawiki.env
+      - mediawiki.env
     volumes:
       - mediawiki_data:/var/www/html
     ports:
       - "8085:80"
     depends_on:
-      - mediawiki_db
+      - db
 
-  mediawiki_db:
+  db:
     image: mysql:5.7
     container_name: mediawiki_db
     networks:
       - internal_net
     env_file:
-      - ./mediawiki_db.env
+      - mediawiki.env
     volumes:
       - db_data:/var/lib/mysql
 
