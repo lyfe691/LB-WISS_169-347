@@ -6,11 +6,8 @@ services:
     container_name: nextcloud
     networks:
       - internal_net
-    environment:
-      - MYSQL_HOST=db
-      - MYSQL_DATABASE=nextcloud
-      - MYSQL_USER=nextcloud
-      - MYSQL_PASSWORD=secret
+    env_file:
+      - nextcloud.env
     volumes:
       - nextcloud_data:/var/www/html
     ports:
@@ -23,11 +20,8 @@ services:
     container_name: nextcloud_db
     networks:
       - internal_net
-    environment:
-      - MYSQL_ROOT_PASSWORD=root_password
-      - MYSQL_DATABASE=nextcloud
-      - MYSQL_USER=nextcloud
-      - MYSQL_PASSWORD=secret
+    env_file:
+      - nextcloud.env
     volumes:
       - db_data:/var/lib/mysql
 

@@ -6,17 +6,13 @@ services:
     container_name: gogs
     networks:
       - internal_net
-    environment:
-      - DB_TYPE=mysql
-      - DB_HOST=db:3306
-      - DB_NAME=gogs
-      - DB_USER=gogs
-      - DB_PASSWD=secret
+    env_file:
+      - gogs.env
     volumes:
       - gogs_data:/data
     ports:
       - "3000:3000"
-      - "2222:22"  # Ändere den SSH-Port auf 2222
+      - "2222:22"  
     depends_on:
       - db
 
@@ -25,11 +21,8 @@ services:
     container_name: gogs_db
     networks:
       - internal_net
-    environment:
-      - MYSQL_ROOT_PASSWORD=root_password
-      - MYSQL_DATABASE=gogs
-      - MYSQL_USER=gogs
-      - MYSQL_PASSWORD=secret
+    env_file:
+      - gogs.env
     volumes:
       - db_data:/var/lib/mysql
 
@@ -40,3 +33,4 @@ networks:
 volumes:
   gogs_data:
   db_data:
+
