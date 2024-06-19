@@ -44,25 +44,25 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Erstellen eines neuen Wikis und Hinzufügen von Seiten.
  
   -- **Erwartete Resultate**
-    - Installation vorhanden, Konfiguration ist abgespeichert
-    - Startseite Erreichbar
-    - Neues Wiki funktioniert und beeinhaltet alle Seite
+    - Installation vorhanden, Konfiguration ist abgespeichert.
+    - Startseite erreichbar.
+    - Neues Wiki funktioniert und beinhaltet alle Seiten.
 
 - **Benutzerverwaltung**
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
 
   -- **Erwartete Resultate**
-    - Benutzer werden erfolgreich erstellt und sind verfügbar
-    - Benutzer Berechtigungen funktionieren
+    - Benutzer werden erfolgreich erstellt und sind verfügbar.
+    - Benutzerberechtigungen funktionieren.
 
 - **Datenintegrität und -sicherheit**
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
  
   -- **Erwartete Resultate**
-    - Backups werden richtig gespeichert und auch Wiederhergestellt
-    - Datenbank ist erreichbar mit allen Daten
+    - Backups werden richtig gespeichert und auch wiederhergestellt.
+    - Datenbank ist erreichbar, mit allen Daten erreichbar.
 
 ##### 4.2 Nextcloud
 
@@ -72,25 +72,25 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Hochladen und Teilen von Dateien.
  
   -- **Erwartete Resultate**
-    - Installation vorhanden
-    - Web-Overlay ist erreichbar
-    - Daten werden erfolgreich hochgeladen und gespeichert
+    - Installation vorhanden.
+    - Web-Overlay ist erreichbar.
+    - Daten werden erfolgreich hochgeladen und gespeichert.
 
 - **Benutzerverwaltung**
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte und Freigabeeinstellungen.
  
   -- **Erwartete Resultate**
-    - Benutzer werden richtig erstellt und gespeichert
-    - Benutzer Rechte funktionieren
+    - Benutzer werden richtig erstellt und gespeichert.
+    - Benutzerrechte funktionieren.
 
 - **Datenintegrität und -sicherheit**
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
  
   -- **Erwartete Resultate**
-    - Backup ist erfolgreich gespeichert und auch wiederhergestellt
-    - Datenbank ist funktional und konsistent
+    - Backup ist erfolgreich gespeichert und auch wiederhergestellt.
+    - Datenbank ist funktional und konsistent.
 
 ##### 4.3 Gogs
 
@@ -100,25 +100,25 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Erstellen eines neuen Repositorys.
  
   -- **Erwartete Resultate**
-    - Gogs existiert und richtig konfiguiert
-    - Gogs ist erreichbar per Browser
-    - Repositorys werden gespeichert und richtig erstellt
+    - Gogs existiert und richtig konfiguriert.
+    - Gogs ist erreichbar per Browser.
+    - Repositorys werden gespeichert und richtig erstellt.
 
 - **Benutzerverwaltung**
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
  
   -- **Erwartete Resultate**
-    - Benutzer können richtig verwaltet und erstellt werden
-    - Benutzer haben gewisse berechtigungen die auch funktional sind
+    - Benutzer können richtig verwaltet und erstellt werden.
+    - Benutzer haben gewisse Berechtigungen, die auch funktional sind.
 
 - **Datenintegrität und -sicherheit**
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
  
   -- **Erwartete Resultate**
-    - Backups funktionieren und werden auch wiederherrgestellt
-    - Datenbank verbindent richtig und besteht aus allen daten
+    - Backups funktionieren und werden auch wiederhergestellt.
+    - Datenbank verbindet sich richtig und besteht aus allen Daten.
 
 ##### 4.4 Portainer
 
@@ -128,34 +128,33 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Verwalten von Containern und Images.
  
   -- **Erwartete Resultate**
-    - Portrainer ist erfolgreich installiert und die Konfigurationen sind bestehend
-    - Weboberfläche von Portrainer ist erreichbar
-    - Portrainer steuert und verwaltet jegliche Docker erfolgreich
+    - Portrainer ist erfolgreich installiert und die Konfigurationen sind bestehend.
+    - Weboberfläche von Portrainer ist erreichbar.
+    - Portrainer steuert und verwaltet jegliche Docker erfolgreich.
 
 - **Benutzerverwaltung**
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
  
   -- **Erwartete Resultate**
-    - Benutzerkonten sind richtig erreichbar und funktional
-    - Benutzer können auf Portrainer zugreifen und sich anmelden
+    - Benutzerkonten sind richtig erreichbar und funktional.
+    - Benutzer können auf Portrainer zugreifen und sich anmelden.
 
 #### 5. Testdurchführung
 
 ##### 5.1 MediaWiki
- - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen.
+ - Die Installation ist korrekt abgespeichert, die Grundkonfiguration ist erhalten. Die Startseite ist erreichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen.
 
 ##### 5.2 Nextcloud
- - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzer verwaltung ist erreichbar und änderbar dazu ist auch noch die Volle sicherheit gewährleistet vorallem weil das passwort nicht öffentlich sichtbar ist.
+ - Die Installation ist korrekt abgespeichert, die Grundkonfiguration ist erhalten. Die Startseite ist erreichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzerverwaltung ist erreichbar und änderbar, dazu ist auch noch die volle Sicherheit gewährleistet, vor allem weil das Passwort nicht öffentlich sichtbar ist.
 
 ##### 5.3 Gogs
- - Installation ist verfügbar und Repositorys sind verfügbar und funktionieren dazu kann man neue einfach erstellen. Die Seite ist auch erreichbar sowie die Benutzer verwaltung ist verfügbar und funktionsfähig auch die Sicherheit ist vollkommen gewährleistet in dem das Passwort nicht öffentlich ist.
+ - Installation ist verfügbar und Repositorys sind verfügbar und funktionieren, dazu kann man neue einfach erstellen. Die Seite ist auch erreichbar sowie die Benutzerverwaltung ist verfügbar und funktionsfähig, auch die Sicherheit ist vollkommen gewährleistet, indem das Passwort nicht öffentlich ist.
 
 ##### 5.4 Portainer
- - Portainer ist erreichbar und die verwaltung der Container und der Images ist vollkommen funktionsfähig dabei sind die Benutzer auch richtig konfiguiert und sichergestellt das die Passwörter nicht öffentlich sind.
+ - Portainer ist erreichbar und die Verwaltung der Container und der Images ist vollkommen funktionsfähig; dabei sind die Benutzer auch richtig konfiguriert und sichergestellt, dass die Passwörter nicht öffentlich sind.
    
 #### 6. Testabschluss
 
-kommt noch
-
+kommt noch.
 
