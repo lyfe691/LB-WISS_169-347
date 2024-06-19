@@ -43,7 +43,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Überprüfen, ob die Startseite erreichbar ist.
   - Erstellen eines neuen Wikis und Hinzufügen von Seiten.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Installation vorhanden, Konfiguration ist abgespeichert
     - Startseite Erreichbar
     - Neues Wiki funktioniert und beeinhaltet alle Seite
@@ -52,7 +52,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
 
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Benutzer werden erfolgreich erstellt und sind verfügbar
     - Benutzer Berechtigungen funktionieren
 
@@ -71,7 +71,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Überprüfen, ob die Weboberfläche zugänglich ist.
   - Hochladen und Teilen von Dateien.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Installation vorhanden
     - Web-Overlay ist erreichbar
     - Daten werden erfolgreich hochgeladen und gespeichert
@@ -80,7 +80,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte und Freigabeeinstellungen.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Benutzer werden richtig erstellt und gespeichert
     - Benutzer Rechte funktionieren
 
@@ -88,7 +88,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Backup ist erfolgreich gespeichert und auch wiederhergestellt
     - Datenbank ist funktional und konsistent
 
@@ -99,7 +99,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Überprüfen, ob die Weboberfläche zugänglich ist.
   - Erstellen eines neuen Repositorys.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Gogs existiert und richtig konfiguiert
     - Gogs ist erreichbar per Browser
     - Repositorys werden gespeichert und richtig erstellt
@@ -108,7 +108,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Benutzer können richtig verwaltet und erstellt werden
     - Benutzer haben gewisse berechtigungen die auch funktional sind
 
@@ -116,7 +116,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Testen von Backup- und Wiederherstellungsprozessen.
   - Überprüfen der Datenbankverbindung und -konsistenz.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Backups funktionieren und werden auch wiederherrgestellt
     - Datenbank verbindent richtig und besteht aus allen daten
 
@@ -127,7 +127,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Überprüfen, ob die Weboberfläche zugänglich ist.
   - Verwalten von Containern und Images.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Portrainer ist erfolgreich installiert und die Konfigurationen sind bestehend
     - Weboberfläche von Portrainer ist erreichbar
     - Portrainer steuert und verwaltet jegliche Docker erfolgreich
@@ -136,7 +136,7 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   - Erstellen und Verwalten von Benutzerkonten.
   - Überprüfen der Zugriffsrechte.
  
-  - **Erwartete Resultate**
+  -- **Erwartete Resultate**
     - Benutzerkonten sind richtig erreichbar und funktional
     - Benutzer können auf Portrainer zugreifen und sich anmelden
 
