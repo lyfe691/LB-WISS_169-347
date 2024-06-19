@@ -391,7 +391,7 @@ volumes:
   db_data:
 ```
  #### Sicheres Gogs
-```bash
+```yaml
 version: '3.8'
 
 services:
@@ -429,7 +429,7 @@ volumes:
   db_data:
 ```
  #### Sicheres Nextcloud
-```bash
+```yaml
 version: '3.8'
 
 services:
@@ -466,7 +466,7 @@ volumes:
   db_data:
 ```
  #### Sicheres Portainer 
- ```bash
+ ```yaml
 version: '3.8'
 
 services:
