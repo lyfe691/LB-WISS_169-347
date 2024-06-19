@@ -142,7 +142,18 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
 
 #### 5. Testdurchführung
 
-kommt nocj
+##### 5.1 MediaWiki
+ - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen.
+
+##### 5.2 Nextcloud
+ - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzer verwaltung ist erreichbar und änderbar dazu ist auch noch die Volle sicherheit gewährleistet vorallem weil das passwort nicht öffentlich sichtbar ist.
+
+##### 5.3 Gogs
+ - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzer verwaltung ist erreichbar und änderbar dazu ist auch noch die Volle sicherheit gewährleistet vorallem weil das passwort nicht öffentlich sichtbar ist.
+
+##### 5.4 Portainer
+ - Die Installation ist korrekt abgespeichert die Grundkonfiguration sind erhalten. Startseite ist erreiichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzer verwaltung ist erreichbar und änderbar.
+   
 #### 6. Testabschluss
 
 kommt noch
