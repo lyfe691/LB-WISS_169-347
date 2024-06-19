@@ -310,9 +310,9 @@ Damit ich und Benicio zusammenarbieten konnten mussten wir im docker environemen
     2 => '172.28.1.2', # meine ip
   ),
 ```
-Dazu musste ich noch die Ports Weiterleiten
-![Port Weiterleitung Nextcloud](images/nextcloud)
+Dazu musste ich noch die Ports Weiterleiten:
 
+![Port Weiterleitung Nextcloud](images/nextcloud/Screenshot 2024-06-19 145246.png)
 
 <hr>
 
