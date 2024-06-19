@@ -108,20 +108,20 @@
 
 
 ## Fazit zum Projekt
-##### Einrichtung von Diensten für ein Informatik-KMU
+#### Einrichtung von Diensten für ein Informatik-KMU
 Das Projekt zur Einrichtung verschiedener Dienste für ein Informatik-KMU war sowohl herausfordernd als auch lehrreich. Ziel war es, eine MediaWiki-Plattform, Nextcloud für Filesharing und eine Git-Verwaltung mit Gogs zu implementieren und diese Dienste unter Verwendung von Docker-Containern zu betreiben. Dabei sollten alle Daten persistent gespeichert und die Dienste mit Portainer überwacht werden.
 
-##### Herausforderungen und Lösungen
+#### Herausforderungen und Lösungen
 Eine der grössten Herausforderungen bestand darin, die verschiedenen Dienste in Docker-Containern zu implementieren und sicherzustellen, dass diese Container effizient und zuverlässig miteinander kommunizieren. Dies erforderte ein tiefes Verständnis der Docker-Technologien sowie der Netzwerkkonfiguration innerhalb von Docker.
 
 Ein weiteres Problem war die sichere Verwaltung der Zugangsdaten. Um dies zu lösen, wurden Umgebungsvariablen verwendet und sensible Daten in separate ``.env`` Dateien ausgelagert. Dies erhöhte die Sicherheit und erleichterte die Verwaltung der Zugangsdaten erheblich.
 
-##### Lernfortschritte und Erfolge
+#### Lernfortschritte und Erfolge
 Durch die Arbeit an diesem Projekt habe wir mein Wissen in mehreren Bereichen vertieft. Insbesondere habe ich ein besseres Verständnis für Docker und dessen Anwendungsmöglichkeiten gewonnen. Die Einrichtung von MediaWiki, Nextcloud und Gogs hat mir gezeigt, wie flexibel und leistungsfähig Docker-Container sind.
 
 Der Einsatz von Portainer zur Überwachung und Verwaltung der Container hat uns gezeigt, wie wichtig es ist, eine zentrale Verwaltungskonsole zu haben, um die Kontrolle über mehrere Dienste zu behalten. Auch die Implementierung und Verwaltung von Datenbanken innerhalb von Docker-Containern war ein wertvoller Lernschritt.
 
-##### Fazit
+#### Fazit
 Das Projekt hat gezeigt, dass es möglich ist, komplexe IT-Dienstleistungen effizient und sicher in einer containerisierten Umgebung bereitzustellen. Durch die Nutzung von Docker und Portainer konnten wir eine robuste und skalierbare Lösung implementieren, die den Anforderungen des Auftraggebers gerecht wird. Der Einsatz von Umgebungsvariablen und .env-Dateien hat die Sicherheit der Lösung erhöht und gleichzeitig die Verwaltung vereinfacht.
 
 Insgesamt war das Projekt ein Erfolg, und die erlernten Fähigkeiten und Erfahrungen werden in zukünftigen Projekten von grossem Nutzen sein. Die Herausforderungen, denen ich begegnet bin, haben mein Verständnis für containerisierte Anwendungen und deren Verwaltung erheblich vertieft. Dieses Projekt hat gezeigt, dass moderne Technologien wie Docker und Portainer wesentliche Werkzeuge für die Bereitstellung und Verwaltung von IT-Diensten sind.
@@ -131,7 +131,7 @@ Insgesamt war das Projekt ein Erfolg, und die erlernten Fähigkeiten und Erfahru
 ##### Systeminstallation und -konfiguration
 Während des Projekts habe ich die Installation und Konfiguration aller benötigten Systeme übernommen. Dazu gehörten die Einrichtung von MediaWiki, Nextcloud und Gogs, sowie die Konfiguration von Portainer zur Überwachung der Container. Diese Aufgaben haben mir geholfen, meine praktischen Fähigkeiten im Umgang mit Docker und verschiedenen Webanwendungen zu vertiefen.
 
-##### Problemlösung und Debugging
+#### Problemlösung und Debugging
 Im Laufe des Projekts traten verschiedene technische Herausforderungen auf, die ich erfolgreich gelöst habe. Dies beinhaltete das Beheben von Berechtigungsproblemen, das Anpassen von Konfigurationsdateien und das Sicherstellen der Kommunikation zwischen den Containern. Diese Erfahrungen haben meine Fähigkeiten im Troubleshooting und in der Fehlerbehebung erheblich verbessert.
 
 Ein Problem das ich noch anprechen möchte war beim configurieren des config.php in der nextcloud, es stelle sich aber heraus das es ein einfacher fix gab, man musste einfach die IP von ihm und mir weiterleiten und in das condig.php implementieren:
