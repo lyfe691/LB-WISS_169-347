@@ -306,7 +306,7 @@ Damit ich und Benicio zusammenarbieten konnten mussten wir im docker environemen
 # Man musste meine lokale IP und seine Lokale IP importieren.
   array (
     0 => 'localhost:8080', 
-    1 => '172.28.1.15', # seine ip
+    1 => '172.28.1.15', # benicio ip
     2 => '172.28.1.2', # meine ip
   ),
 ```
