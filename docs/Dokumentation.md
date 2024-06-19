@@ -353,7 +353,7 @@ Die ``.env`` dateien soll man dann im .gitignore listen damit sie nicht gepusht 
   MYSQL_PASSWORD=beispiel
  ```
 2. Als nächstes mussten wir die ``docker-compose.yaml`` dateien updaten und die Passwörter entfernen und mit dem pfad der ``.env`` datei ersetzen.
-  Beispiel für MediaWiki:
+  #### Sicheres MediaWiki:
 ```yaml
 version: '3.8'
 
@@ -389,6 +389,104 @@ networks:
 volumes:
   mediawiki_data:
   db_data:
+```
+ #### Sicheres Gogs
+```bash
+version: '3.8'
+
+services:
+  gogs:
+    image: gogs/gogs:latest
+    container_name: gogs
+    networks:
+      - internal_net
+    env_file:
+      - gogs.env
+    volumes:
+      - gogs_data:/data
+    ports:
+      - "3000:3000"
+      - "2222:22"  
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: gogs_db
+    networks:
+      - internal_net
+    env_file:
+      - gogs.env
+    volumes:
+      - db_data:/var/lib/mysql
+
+networks:
+  internal_net:
+    driver: bridge
+
+volumes:
+  gogs_data:
+  db_data:
+```
+ #### Sicheres Nextcloud
+```bash
+version: '3.8'
+
+services:
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    networks:
+      - internal_net
+    env_file:
+      - nextcloud.env
+    volumes:
+      - nextcloud_data:/var/www/html
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: nextcloud_db
+    networks:
+      - internal_net
+    env_file:
+      - nextcloud.env
+    volumes:
+      - db_data:/var/lib/mysql
+
+networks:
+  internal_net:
+    driver: bridge
+
+volumes:
+  nextcloud_data:
+  db_data:
+```
+ #### Sicheres Portainer 
+ ```bash
+version: '3.8'
+
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    networks:
+      - internal_net
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+networks:
+  internal_net:
+    driver: bridge
+
+volumes:
+  portainer_data:
 ```
 3. Als nächstes haben wir die ``.env`` dateien im ``.gitignore`` eingeführt.
    Das funktioniert so:
