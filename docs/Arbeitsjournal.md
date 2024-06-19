@@ -111,11 +111,11 @@
 
  ### Reflexion
  Yanis:
- Das Projekt war eine Lange sache ging aber recht schnell und gut. Mit etwas Zeit habe ich daher diese Meisterwerk 
+ - Das Projekt war eine Lange sache ging aber recht schnell und gut. Mit etwas Zeit habe ich daher diese Meisterwerk 
  erschaffen.
 
  Benicio:
- War etwas schwer die Dokumentationen zu verlängern hätte mich mehr beim Projekt beteiligen sollen.
+ - War etwas schwer die Dokumentationen zu verlängern hätte mich mehr beim Projekt beteiligen sollen.
  
  
  
