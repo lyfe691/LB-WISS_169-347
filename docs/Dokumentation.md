@@ -340,7 +340,8 @@ Das erte was man machen soll ist ``.env`` dateien erstellen um die passwörter z
 Die ``.env`` dateien soll man dann im .gitignore listen damit sie nicht gepusht werden also sozusagen ausgeschlossen werden.
 
 1. Navigierten wir in die ordner wo die docker-compose dateien gelistet sind und erstellten ``.env`` dateien
-   Beispiel:
+   
+Beispiel:
 ```bash
   MEDIAWIKI_DB_TYPE=beispiel
   MEDIAWIKI_DB_HOST=beispiel
