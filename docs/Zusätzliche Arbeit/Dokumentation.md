@@ -8,7 +8,7 @@ Damit ich und Benicio Zusammenarbeiten konnten mussten wir im Docker Environment
     2 => '172.28.1.2', # meine ip
   ),
 
-´´´php
+´´´bash
 <?php
 $CONFIG = array (
   'htaccess.RewriteBase' => '/',
