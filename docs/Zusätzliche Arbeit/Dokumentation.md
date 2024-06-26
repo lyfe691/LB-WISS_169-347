@@ -1,4 +1,5 @@
-Verbindungs Aufbau
+# Verbindung auf anderen Geräten 
+Damit ich und Benicio zusammen auf meine Lokalen Instanzen zugreifen konnten mussten wir einfach noch zusätslich die Ports jeweils mit meiner IP Weiterleiten 
 Damit ich und Benicio Zusammenarbeiten konnten mussten wir im Docker Environment ``root@6e52e35328f6:/var/www/html/config/config.php`` so ändern das er zugriff auf meine Lokale Instanz hat, das machten wir so:
 
 ### Man muss meine lokale IP und seine Lokale IP einfügen.
@@ -65,5 +66,4 @@ $CONFIG = array (
 
 ### Dazu musste man noch die Ports Weiterleiten:
 
-Port Weiterleitung Nextcloud
 ![nextcloud_port](https://github.com/lyfe691/LB-WISS_169-347/assets/111024477/6a0063ad-875b-4966-8f14-982e1e1bb456)
