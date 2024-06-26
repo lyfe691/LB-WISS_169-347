@@ -154,9 +154,9 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
  
 #### 5. Andere Herausforderungen
 -- **Tests und Überprüfungen der installierten Dienste**
-  -Testfehler bei Nextcloud-Dateifreigabe, durch Anpassung der Freigabeeinstellungen gelöst
-  -Fehler bei der Wiederherstellung der Nextcloud-Datenbank, durch Überprüfung der Backup-Skripte (config.php) gelöst
-  -Vollständigkeit und Klarheit der Dokumentation sicherstellen
+  - Testfehler bei Nextcloud-Dateifreigabe, durch Anpassung der Freigabeeinstellungen gelöst
+  - Fehler bei der Wiederherstellung der Nextcloud-Datenbank, durch Überprüfung der Backup-Skripte (config.php) gelöst
+  - Vollständigkeit und Klarheit der Dokumentation sicherstellen
       
 #### 6. Testdurchführung
 
