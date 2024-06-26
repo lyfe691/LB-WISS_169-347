@@ -310,10 +310,11 @@ Damit ich und Benicio zusammenarbieten konnten mussten wir im docker environemen
     2 => '172.28.1.2', # meine ip
   ),
 ```
-Dazu musste ich noch die Ports Weiterleiten, das hat :
+Dazu musste ich noch die Ports Weiterleiten, das sah so aus:
 
 ![Port Weiterleitung Nextcloud](images/nextcloud/nextcloud_port.png)
 
+Ausfühlichere erklärung [hier](docs/Zusätzliche%20Arbeit/VerbindungAndererGeräte.md).
 <hr>
 
 ### Einrichten von Gogs
