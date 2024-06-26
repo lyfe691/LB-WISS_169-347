@@ -7,7 +7,7 @@ Dieses Projekt beinhaltet die praktische Anwendung von Backend-Services und Fron
 ## Aufgabenbeschreibung
 
 **Ausgangslage:**
-Wir sind damit beauftragt, wichtige Dienste für ein IT-Unternehmen einzurichten, indem du docker-compose zur Verwaltung von Microservices verwendest.
+Wir sind damit beauftragt, wichtige Dienste für ein IT-Unternehmen einzurichten, indem man docker-compose zur Verwaltung von Microservices verwendest.
 
 **Anforderungen:**
 
