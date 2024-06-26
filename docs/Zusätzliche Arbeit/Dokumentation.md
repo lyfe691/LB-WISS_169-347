@@ -1,5 +1,5 @@
 Verbindungs Aufbau
-Damit ich und Benicio Zusammenarbeiten konnten mussten wir im Docker Environment ´´root@6e52e35328f6:/var/www/html/config/config.php´´ so ändern das er zugriff auf meine Lokale Instanz hat, das machten wir so:
+Damit ich und Benicio Zusammenarbeiten konnten mussten wir im Docker Environment ``root@6e52e35328f6:/var/www/html/config/config.php`` so ändern das er zugriff auf meine Lokale Instanz hat, das machten wir so:
 
 ### Man muss meine lokale IP und seine Lokale IP einfügen.
 ```php
