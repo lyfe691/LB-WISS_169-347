@@ -301,7 +301,7 @@ cat config.php
 ```
 ![Confirmation config](images/nextcloud/confirmation_nextcloud.png)
 #### Zusammenarbeit
-Damit ich und Benicio zusammenarbieten konnten mussten wir im docker environement ``root@6e52e35328f6:/var/www/html/config/config.php`` so ändern das er such zugriff hat auf meine Lokale Instanz, das machte ich so:
+Damit ich und Benicio zusammenarbieten konnten mussten wir im docker environement ``root@6e52e35328f6:/var/www/html/config/config.php`` so ändern das er auch Zugriff hat auf meine Lokale Instanz hat, das machte ich so:
 ```bash
 # Man musste meine lokale IP und seine Lokale IP importieren.
   array (
@@ -314,8 +314,7 @@ Dazu musste ich noch die Ports Weiterleiten, das sah so aus:
 
 ![Port Weiterleitung Nextcloud](images/nextcloud/nextcloud_port.png)
 
-Ausfühlichere Erklärung [hier](docs/Zusätzliche%20Arbeit)
-
+Ausfühlichere Erklärung im "Zusätzliche Arbeit" Ordner.
 <hr>
 
 ### Einrichten von Gogs
