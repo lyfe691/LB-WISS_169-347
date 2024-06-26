@@ -171,8 +171,3 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
 
 ##### 6.4 Portainer
  - Portainer ist erreichbar und die Verwaltung der Container und der Images ist vollkommen funktionsfähig; dabei sind die Benutzer auch richtig konfiguriert und sichergestellt, dass die Passwörter nicht öffentlich sind.
-   
-#### 7. Testabschluss
-
-kommt noch.
-
