@@ -63,6 +63,9 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
   -- **Erwartete Resultate**
     - Backups werden richtig gespeichert und auch wiederhergestellt.
     - Datenbank ist erreichbar, mit allen Daten erreichbar.
+ 
+  -- **Herausforderungen**
+    - Fehler bei der Datenbankverbindung, durch Überprüfung der Umgebungsvariablen gelöst
 
 ##### 4.2 Nextcloud
 
@@ -92,6 +95,9 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
     - Backup ist erfolgreich gespeichert und auch wiederhergestellt.
     - Datenbank ist funktional und konsistent.
 
+  -- **Herausforderungen**
+    - Nextcloud-Datenbankfehler, durch Neuinstallation der Datenbank gelöst
+      
 ##### 4.3 Gogs
 
 - **Installation und Grundkonfiguration**
@@ -120,6 +126,9 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
     - Backups funktionieren und werden auch wiederhergestellt.
     - Datenbank verbindet sich richtig und besteht aus allen Daten.
 
+  -- **Herausforderungen**
+    - Fehler bei der Datenbankverbindung, durch Überprüfung der Umgebungsvariablen gelöst
+      
 ##### 4.4 Portainer
 
 - **Installation und Grundkonfiguration**
@@ -140,21 +149,30 @@ Die Tests werden in der gleichen Umgebung durchgeführt, in der die Dienste bere
     - Benutzerkonten sind richtig erreichbar und funktional.
     - Benutzer können auf Portrainer zugreifen und sich anmelden.
 
-#### 5. Testdurchführung
+  -- **Herausforderungen**
+    - Portainer-Containerstartprobleme, durch Anpassung der docker-compose.yml gelöst
+ 
+#### 5. Andere Herausforderungen
+-- **Tests und Überprüfungen der installierten Dienste**
+  -Testfehler bei Nextcloud-Dateifreigabe, durch Anpassung der Freigabeeinstellungen gelöst
+  -Fehler bei der Wiederherstellung der Nextcloud-Datenbank, durch Überprüfung der Backup-Skripte (config.php) gelöst
+  -Vollständigkeit und Klarheit der Dokumentation sicherstellen
+      
+#### 6. Testdurchführung
 
-##### 5.1 MediaWiki
+##### 6.1 MediaWiki
  - Die Installation ist korrekt abgespeichert, die Grundkonfiguration ist erhalten. Die Startseite ist erreichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen.
 
-##### 5.2 Nextcloud
+##### 6.2 Nextcloud
  - Die Installation ist korrekt abgespeichert, die Grundkonfiguration ist erhalten. Die Startseite ist erreichbar und man kann erfolgreich neue Wikis und Seiten hinzufügen. Benutzerverwaltung ist erreichbar und änderbar, dazu ist auch noch die volle Sicherheit gewährleistet, vor allem weil das Passwort nicht öffentlich sichtbar ist.
 
-##### 5.3 Gogs
+##### 6.3 Gogs
  - Installation ist verfügbar und Repositorys sind verfügbar und funktionieren, dazu kann man neue einfach erstellen. Die Seite ist auch erreichbar sowie die Benutzerverwaltung ist verfügbar und funktionsfähig, auch die Sicherheit ist vollkommen gewährleistet, indem das Passwort nicht öffentlich ist.
 
-##### 5.4 Portainer
+##### 6.4 Portainer
  - Portainer ist erreichbar und die Verwaltung der Container und der Images ist vollkommen funktionsfähig; dabei sind die Benutzer auch richtig konfiguriert und sichergestellt, dass die Passwörter nicht öffentlich sind.
    
-#### 6. Testabschluss
+#### 7. Testabschluss
 
 kommt noch.
 
