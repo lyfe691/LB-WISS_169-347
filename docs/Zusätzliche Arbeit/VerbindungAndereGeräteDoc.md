@@ -2,6 +2,8 @@
 Damit Benicio und ich zusammen auf meine lokale Instanz zugreifen konnten, mussten wir zusätzlich die Ports mit meiner IP weiterleiten. Mit meiner IP ist die IP-Adresse im WISS-Netzwerk gemeint, die auch von Benicio gesehen werden kann.
 
 Der zweitoberste Eintrag ist der NextCloud-Dienst (8080), die anderen Einträge sind Portainer (9000), MediaWiki (8085) und Gogs (3000).
+
+
 ![nextcloud_port](https://github.com/lyfe691/LB-WISS_169-347/assets/111024477/6a0063ad-875b-4966-8f14-982e1e1bb456)
 <br>‎ 
 <br>Jeweils bei den Diensten funktionierte es sofort, nachdem man die Ports weitergeleitet hatte. Aber bei Nextcloud trat ein Domain-Fehler auf, weil es eine unbekannte Domain war und nicht localhost. Um den Fehler zu beheben, mussten wir im Docker-Environment, also im ``docker exec -it docker_id /bin/bash``, die Datei ``/var/www/html/config/config.php`` ändern. Im Abschnitt trusted_domains haben wir unsere eigenen IP-Adressen hinzugefügt.
