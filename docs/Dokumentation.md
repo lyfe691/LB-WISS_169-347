@@ -314,7 +314,7 @@ Dazu musste ich noch die Ports Weiterleiten, das sah so aus:
 
 ![Port Weiterleitung Nextcloud](images/nextcloud/nextcloud_port.png)
 
-Ausfühlichere erklärung [hier](docs/Zusätzliche%20Arbeit/VerbindungAndererGeräte.md).
+Ausfühlichere erklärung [hier](docs/Zusätzliche%20Arbeit/VerbindungAndereGeräteDoc.md).
 <hr>
 
 ### Einrichten von Gogs
