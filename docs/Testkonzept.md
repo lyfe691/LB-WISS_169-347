@@ -1,5 +1,4 @@
-# Skizze
-![169Skizze drawio](https://github.com/lyfe691/LB-WISS_169-347/assets/111024477/9afc5e0c-469f-4d20-a6de-f652af23306f)
+
 
 # Testkonzept für das LB-Projekt
 
