@@ -9,7 +9,24 @@ Dieses Projekt umfasst die Einrichtung und Konfiguration der folgenden Dienste f
 - Portainer: Ein Docker-Management-Tool auf Port 9000.
 
 Alle Dienste wurden mit Docker-Compose konfiguriert und laufen in Docker-Containern. Die Konfiguration und Verwaltung der Container erfolgt über GitLab.
-## Inhaltübersicht
+## Inhaltsverzeichnis
+- [Projektübersicht](#projektübersicht)
+  - [Projektstruktur](#projektstruktur)
+- [Voraussetzungen](#voraussetzungen)
+- [Einrichtung der Dienste](#einrichtung-der-dienste)
+  - [MediaWiki (Vor Sicherheitsmassnahme)](#mediawiki-vor-sicherheitsmassnahme)
+  - [Nextcloud (Vor Sicherheitsmassnahme)](#nextcloud-vor-sicherheitsmassnahme)
+  - [Gogs (Vor Sicherheitsmassnahme)](#gogs-vor-sicherheitsmassnahme)
+  - [Portainer (Vor Sicherheitsmassnahme)](#portainer-vor-sicherheitsmassnahme)
+- [Dienste starten](#dienste-starten)
+- [Versionsverwaltung](#versionsverwaltung)
+  - [Repository einrichten und Änderungen pushen](#repository-einrichten-und-änderungen-pushen)
+- [Einrichten von MediaWiki](#einrichten-von-mediawiki)
+- [Einrichten von NextCloud](#einrichten-von-nextcloud)
+- [Einrichten von Gogs](#einrichten-von-gogs)
+- [Einrichten von Portainer](#einrichten-von-portainer)
+- [Passwörter verstecken](#passwörter-verstecken)
+
 
 ### Projektstruktur
 
