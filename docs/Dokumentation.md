@@ -16,6 +16,9 @@ Wir haben die Projektstruktur wie folgt organisiert:
 
 ```plaintext
 LB/
+├── Zusätzliche Arbeit/
+|   ├── 169GanttDiagramm.pdf
+|   ├── VerbindungAndereGeräteDocumentation
 ├── docs/
 |   ├── Arbeitsjournal.md
 |   |── Dokumenation.md
