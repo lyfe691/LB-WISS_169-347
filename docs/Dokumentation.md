@@ -1,6 +1,7 @@
 # Projekt-Dokumentation
 ## Projektübersicht
 Yanis Zürcher & Benicio von Felten
+<br>
 Dieses Projekt umfasst die Einrichtung und Konfiguration der folgenden Dienste für ein KMU:
 
 - MediaWiki: Ein Wiki für firmeninterne Zwecke auf Port 8085.
