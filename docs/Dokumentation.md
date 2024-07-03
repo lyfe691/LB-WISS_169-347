@@ -16,14 +16,35 @@ Wir haben die Projektstruktur wie folgt organisiert:
 
 ```plaintext
 LB/
-├── Zusätzliche Arbeit/
-|   ├── 169GanttDiagramm.pdf
-|   ├── VerbindungAndereGeräteDocumentation
 ├── docs/
 |   ├── Arbeitsjournal.md
 |   |── Dokumenation.md
 │   ├── Testkonzept.md
+│   ├── IPERKA.md
+│   ├── Skizze.md 
 │   └── README.md
+│   ├── Zusätzliche Arbeit/
+│   │   ├── 169GanttDiagramm.pdf
+│   │   └── VerbindungAndereGeräteDoc.md
+│   ├── images/
+│       ├── gogs/
+│       │   ├── gogs_after_installation.png
+│       │   ├── gogs_anfang.png
+│       │   └── gogs_installatuion   
+│       ├── mediawiki/
+│       │   ├── Beispiel_docker_cp.png
+│       │   ├── LocalSettingsphp.png
+│       │   ├── fertig_setup_mediawiki.png
+│       │   ├── mediawiki_installation.png
+│       │   ├── showcase_scp.png
+│       │   └── start_mediawiki.png
+│       ├── nextcloud/
+│       │   ├── confirmation_nextcloud.png
+│       │   ├── nextcloud_aftersetup.png
+│       │   └── nextcloud_port.png
+│       └── portainer/
+│           ├── nach installation.png
+│           └── vor installation_login.png 
 ├── services/
 │   ├── mediawiki/
 │   │   └── docker-compose.yaml
