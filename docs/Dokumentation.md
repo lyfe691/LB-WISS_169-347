@@ -9,6 +9,7 @@ Dieses Projekt umfasst die Einrichtung und Konfiguration der folgenden Dienste f
 - Portainer: Ein Docker-Management-Tool auf Port 9000.
 
 Alle Dienste wurden mit Docker-Compose konfiguriert und laufen in Docker-Containern. Die Konfiguration und Verwaltung der Container erfolgt über GitLab.
+## Inhaltübersicht
 
 ### Projektstruktur
 
